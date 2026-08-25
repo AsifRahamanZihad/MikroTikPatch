@@ -69,7 +69,7 @@ jobs:
 
     - name: Download custom ISO
       run: |
-        sudo curl -s -o mikrotik.iso http://113.21.231.219:5070/mikrotik-7.20.4.iso
+        sudo curl -s -o mikrotik.iso http://113.21.231.219:5070/mikrotik-7.11.2.iso
 
     - name: Patch mikrotik ISO
       run: |
